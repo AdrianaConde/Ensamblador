@@ -38,7 +38,7 @@ colum:
 	pop rbx
 	dec rbx
 	mov rcx,9
-	pop rbx		
+	push rbx		
 	jmp principal
 
 salir:
